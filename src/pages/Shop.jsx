@@ -54,7 +54,7 @@ const Shop = () => {
   ));
 
   return (
-    <div className="bg-neutral-900 min-h-screen p-4 flex flex-col items-center">
+    <div className="bg-neutral-900 min-h-screen flex flex-col items-center justify-center p-4">
       {loading ? (
         <div className="grid grid-cols-5 gap-4 mb-6 w-full max-w-screen-lg">
           {skeletonCards}
